@@ -20,6 +20,7 @@
 
 ## Estructura de Archivos
 
+```
 ├── .env
 ├── .gitignore
 ├── config/
@@ -45,7 +46,7 @@
 ├── utils/
 │   ├── jwt.util.js
 │   ├── password.util.js
-
+```
 
 
 ## Variables de entorno
@@ -53,3 +54,5 @@
 MONGODB_URI=mongodb+srv://braian:VW0naUyu5mvmtfT3@cluster0.1anfo.mongodb.net/sps?retryWrites=true
 JWT_SECRET=JWtS3creTK3y
 HASH_ALG=HS256
+
+
