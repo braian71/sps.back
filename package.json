@@ -1,0 +1,23 @@
+{
+	"name": "sps-test",
+	"version": "1.0.0",
+	"description": "sps test",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"staging": "node index.js"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv-flow": "^3.2.0",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^8.7.0"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"dotenv-cli": "^7.2.1",
+		"nodemon": "^2.0.22"
+	}
+}
